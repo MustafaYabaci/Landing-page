@@ -1,0 +1,211 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display:flex ;
+    justify-content: space-between;
+    align-items:center ;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+   
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+
+}
+#navbar ul li a:hover{
+    background-color: #336EA2;
+    
+}
+h1{
+    color: #fff;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 100%;
+
+}
+.heading-para{
+    text-align: center;
+}
+.heading-para h2{
+    color: black;
+}
+.heading-para p{
+    opacity: 2;
+    margin-top: 2rem;
+}
+#home a{
+    background-color: #336EA2;
+    padding: 0.25rem 2rem;
+    color: white;
+    margin-top: 2rem;
+    letter-spacing: 3px;
+}
+#home a:hover{
+    background-color: #fff;
+    color: #5F77AD;
+    border: 1px solid #C5D6E4;
+    border-radius: 4px;
+}
+#training{
+    color: #fff;
+    background-color: #062E51;
+    margin-top: 2rem;
+}
+#training .items{
+    text-align: center;
+    padding: 1rem;
+}
+#training .items2{
+    
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+#training .items2 .item{
+    padding: 1rem;
+    text-align: center;
+    width: 33%;
+}
+#training .items2 .item:hover{
+    color: red;
+    opacity: 0.6;
+}
+
+
+/* KURSLAR */
+
+#kurslar .heading{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.kaplama{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    justify-content:flex-start;
+    
+}
+.kurslar-image{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+span{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+}
+.kaplama .kaplama2{
+display:flex ;
+flex-direction: column;
+
+
+}
+.kaplama3{
+    display: flex;
+}
+.kaplama6{
+    display: flex;
+}
+.kaplama7{
+    display: flex;
+}
+.kurs{
+    font-weight: bold;
+    
+}
+
+
+/*İLETİŞİM*/
+footer{
+    background-color: #062E51;
+    
+}
+.head{
+    text-align: center;
+    
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.names input{
+    width: 33%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.names textarea{
+    width: 33%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+
+}
+.names{
+    margin-top: 2rem;
+}
+.names button{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 33%;
+    
+    padding: 1rem;
+    
+}
+form label{
+    display: block;
+    color: #fff;
+    align-self:flex-start;
+}
+.icons ul{
+    display: flex;
+    justify-content: center;
+}
+.icons ul li{
+    list-style-type: none;
+    margin: 1rem;
+    font-size: 2rem;
+   
+}
+.icons ul li a{
+    color: #fff;
+}
+/* .end{
+    text-align: left;
+}
+.end-end{
+    text-align: left;
+} */

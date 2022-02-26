@@ -1,0 +1,20 @@
+#navbar{
+    flex-direction: column;
+    overflow: hidden;
+}
+#training, .item , .items2{
+    flex-direction: column;
+  
+}
+#training .items2 .item{
+    width: 100%;
+}
+.kaplama3{
+    flex-direction: column;
+}
+.kaplama6{
+    flex-direction: column;
+}
+.kaplama7{
+    flex-direction: column;
+}
